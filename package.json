@@ -1,0 +1,14 @@
+{
+  "name": "read-json-node",
+  "version": "1.0.0",
+  "description": "",
+  "main": "readjson.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "collections": "^5.1.5"
+  }
+}
