@@ -11,7 +11,7 @@ for (let i = 0; i < 3700; i = i + 100) {
     try {
         contents = fs.readFileSync(filename);
     } catch (e) {
-        break;
+        continue;
     }
     let jsonContent = JSON.parse(contents);
 
